@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>ansible</title>
+    <desc>Created with Sketch.</desc>
+    <g id="landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-972.000000, -4194.000000)" id="Automation">
+            <g transform="translate(0.000000, 3608.000000)">
+                <g id="logos" transform="translate(637.000000, 586.000000)">
+                    <g id="ansible" transform="translate(335.000000, 0.000000)">
+                        <circle id="Oval" fill="#CC0000" cx="29.9306452" cy="29.9306452" r="29.9306452"></circle>
+                        <path d="M44.2258065,41.7967742 L32.2903226,13.1129032 C32.0082701,12.3425585 31.2735734,11.8316895 30.4532258,11.8354839 C29.6134374,11.8165008 28.8525737,12.3280492 28.5532258,13.1129032 L15.483871,44.5693548 L19.9693548,44.5693548 L25.133871,31.6129032 L40.5822581,44.1016129 C41.0244497,44.5366353 41.6124937,44.7918567 42.2322581,44.8177419 C42.7987225,44.8320172 43.3474758,44.6197167 43.7568383,44.2279156 C44.1662008,43.8361145 44.402343,43.2971911 44.4129032,42.7306452 L44.4129032,42.6693548 C44.3807755,42.3728241 44.3180766,42.0804094 44.2258065,41.7967742 Z M30.4596774,18.2822581 L38.2145161,37.4048387 L26.5048387,28.1870968 L30.4596774,18.2822581 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
