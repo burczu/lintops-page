@@ -1,2 +1,1 @@
-# lintops-landing
-Lintops landing page
+# lintops-page
