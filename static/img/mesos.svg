@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="208px" height="236px" viewBox="0 0 208 236" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>mesos</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.128299065 0 95.1402368 0 95.1402368 235.961205 0.128299065 235.961205"></polygon>
+        <polygon id="path-3" points="0.0388785047 0.355616438 47.8542555 0.355616438 47.8542555 82.7002192 0.0388785047 82.7002192"></polygon>
+        <polygon id="path-5" points="0.0388785047 0.0711232877 154.39367 0.0711232877 154.39367 143.835211 0.0388785047 143.835211"></polygon>
+    </defs>
+    <g id="landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-38.000000, -35.000000)">
+            <g id="mesos" transform="translate(38.000000, 35.000000)">
+                <polyline id="Fill-1" fill="#163B4D" points="154.39367 143.758915 154.39367 92.2507836 109.879726 118.0472 154.39367 143.758915"></polyline>
+                <polyline id="Fill-2" fill="#24A4CC" points="151.514069 87.2243068 106.92172 61.4957808 106.92172 113.014904 151.514069 87.2243068"></polyline>
+                <polyline id="Fill-3" fill="#24A4CC" points="101.126231 113.013611 101.126231 61.4944877 56.5027788 87.2230137 101.126231 113.013611"></polyline>
+                <polyline id="Fill-4" fill="#24A4CC" points="98.2427414 56.5507726 53.6607601 30.6728877 53.6607601 82.2683068 98.2427414 56.5507726"></polyline>
+                <polyline id="Fill-5" fill="#163B4D" points="151.514069 148.709096 106.92172 123.002553 106.92172 174.513918 151.514069 148.709096"></polyline>
+                <polyline id="Fill-6" fill="#163B4D" points="101.126231 174.514564 101.126231 123.00126 56.5027788 148.710389 101.126231 174.514564"></polyline>
+                <polyline id="Fill-7" fill="#24A4CC" points="204.846953 118.046553 160.190455 92.2527233 160.190455 143.758268 204.846953 118.046553"></polyline>
+                <polyline id="Fill-8" fill="#24A4CC" points="47.8542555 82.2683068 47.8542555 30.6728877 2.93856698 56.5507726 47.8542555 82.2683068"></polyline>
+                <polyline id="Fill-9" fill="#163B4D" points="98.2427414 179.465392 53.6607601 153.680614 53.6607601 205.259222 98.2427414 179.465392"></polyline>
+                <polyline id="Fill-10" fill="#24A4CC" points="47.8542555 205.259868 47.8542555 153.682553 2.93856698 179.467332 47.8542555 205.259868"></polyline>
+                <polyline id="Fill-11" fill="#163B4D" points="98.2427414 118.046553 53.6607601 92.2527233 53.6607601 143.758268 98.2427414 118.046553"></polyline>
+                <polyline id="Fill-12" fill="#24A4CC" points="154.39367 82.2683068 154.39367 30.6728877 109.879726 56.5507726 154.39367 82.2683068"></polyline>
+                <polyline id="Fill-13" fill="#163B4D" points="106.923664 0 106.923664 51.5023123 151.515364 25.7175342 106.923664 0"></polyline>
+                <g id="Group-18" transform="translate(56.373832, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-15"></g>
+                    <polyline id="Fill-14" fill="#163B4D" mask="url(#mask-2)" points="0.128299065 25.7175342 44.7517508 51.5023123 44.7517508 0 0.128299065 25.7175342"></polyline>
+                    <polyline id="Fill-16" fill="#163B4D" mask="url(#mask-2)" points="95.1402368 210.204877 50.5478879 184.504153 50.5478879 235.99806 95.1402368 210.204877"></polyline>
+                    <polyline id="Fill-17" fill="#163B4D" mask="url(#mask-2)" points="44.7523988 236 44.7523988 184.50286 0.12894704 210.20617 44.7523988 236"></polyline>
+                </g>
+                <polyline id="Fill-19" fill="#24A4CC" points="207.736922 174.514564 207.736922 123.00126 163.195115 148.710389 207.736922 174.514564"></polyline>
+                <g id="Group-23" transform="translate(0.000000, 91.813699)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Clip-21"></g>
+                    <polyline id="Fill-20" fill="#24A4CC" mask="url(#mask-4)" points="47.8542555 51.9452164 47.8542555 0.355616438 2.93856698 26.2335014 47.8542555 51.9452164"></polyline>
+                    <polyline id="Fill-22" fill="#24A4CC" mask="url(#mask-4)" points="44.980486 56.8953973 0 31.1888548 0 82.7002192 44.980486 56.8953973"></polyline>
+                </g>
+                <polyline id="Fill-24" fill="#24A4CC" points="207.736922 113.013611 207.736922 61.4944877 163.195115 87.2230137 207.736922 113.013611"></polyline>
+                <polyline id="Fill-25" fill="#24A4CC" points="204.846953 56.5507726 160.190455 30.6728877 160.190455 82.2683068 204.846953 56.5507726"></polyline>
+                <polyline id="Fill-26" fill="#24A4CC" points="204.846953 179.465392 160.190455 153.680614 160.190455 205.259222 204.846953 179.465392"></polyline>
+                <g id="Group-30" transform="translate(0.000000, 61.424658)">
+                    <mask id="mask-6" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <g id="Clip-28"></g>
+                    <polyline id="Fill-27" fill="#163B4D" mask="url(#mask-6)" points="154.39367 143.835211 154.39367 92.2578959 109.879726 118.042674 154.39367 143.835211"></polyline>
+                    <polyline id="Fill-29" fill="#24A4CC" mask="url(#mask-6)" points="44.980486 25.7996493 0 0.0711232877 0 51.5902466 44.980486 25.7996493"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

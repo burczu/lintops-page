@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="60px" viewBox="0 0 52 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>terraform</title>
+    <desc>Created with Sketch.</desc>
+    <g id="landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-637.000000, -4194.000000)" id="Automation">
+            <g transform="translate(0.000000, 3608.000000)">
+                <g id="logos" transform="translate(637.000000, 586.000000)">
+                    <g id="terraform">
+                        <polyline id="Path" fill="#4040B2" points="35.8032787 38.4885246 51.9344262 29.1836066 51.9344262 10.5442623 35.8032787 19.8688525"></polyline>
+                        <polyline id="Path" fill="#5C4EE5" points="17.9016393 10.5442623 34.0327869 19.8688525 34.0327869 38.4885246 17.9016393 29.1737705"></polyline>
+                        <path d="M0,18.7770492 L16.1311475,28.0918033 L16.1311475,9.46229508 L0,0.147540984 M17.9016393,49.8491803 L34.0327869,59.1639344 L34.0327869,40.5344262 L17.9016393,31.2196721" id="Shape" fill="#5C4EE5" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

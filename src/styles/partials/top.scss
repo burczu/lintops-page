@@ -1,0 +1,77 @@
+@import "../variables";
+
+.top-section {
+  position: relative;
+
+  width: 100%;
+  height: 1000px;
+
+  background: url('/static/img/top-background.jpg');
+  background-position: center bottom;
+  background-repeat: repeat-x;
+  background-size: 300%;
+  background-color: $color-light;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0 2px 60px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+
+  @media screen and (min-width: $screen-s) {
+    background-size: 200%;
+  }
+
+  @media screen and (min-width: $screen-m) {
+    background-size: 100%;
+  }
+
+  @media screen and (min-width: $screen-l) {
+    background-size: 75%;
+  }
+
+  &__welcome {
+    font-size: 4em;
+    font-weight: bold;
+    margin: 0 15px 30px;
+    line-height: 1;
+    color: $color-dark-gray;
+
+    text-align: center;
+
+    @media screen and (min-width: $screen-s) {
+      font-size: 6em;
+    }
+  }
+
+  &__sub-welcome {
+    font-size: 2em;
+    font-weight: normal;
+    color: $color-gray;
+    margin: 0 15px;
+    line-height: 1.5;
+
+    text-align: center;
+
+    @media screen and (min-width: $screen-s) {
+      font-size: 2.6em;
+    }
+  }
+
+  &__call-to-action {
+    position: absolute;
+    bottom: 45px;
+
+    padding: 15px 30px;
+
+    font-size: 2em;
+    border-radius: $radius-global * 2;
+
+    @media screen and (min-width: $screen-s) {
+      font-size: 2.6em;
+      padding: 15px 45px;
+    }
+  }
+}

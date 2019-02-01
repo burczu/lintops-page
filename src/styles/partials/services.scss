@@ -1,0 +1,116 @@
+@import "../variables";
+
+.services {
+  z-index: 97;
+
+  &__content {
+    background: url('/static/img/cog-light.png');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+
+    padding: 45px 10px;
+
+    @media screen and (min-width: $screen-s) {
+      padding: 100px 0;
+    }
+  }
+
+  &__title {
+    font-size: 2.4em;
+
+    @media screen and (min-width: $screen-s) {
+      font-size: 2.6em;
+    }
+  }
+
+  &__description {
+    font-size: 1.8em;
+    line-height: 30px;
+    color: $color-gray;
+  }
+
+  &__boxes {
+    margin-top: 60px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    @media screen and (min-width: $screen-m) {
+      margin-top: 100px;
+    }
+  }
+
+  &__box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 40px;
+
+    @media screen and (min-width: $screen-s) {
+      width: calc(50% - 50px);
+
+      &:nth-child(even) {
+        margin-left: 30px;
+        margin-right: 20px;
+      }
+
+      &:nth-child(odd) {
+        margin-right: 30px;
+        margin-left: 20px;
+      }
+
+      &:nth-child(1), &:nth-child(2) {
+        margin-bottom: 40px;
+      }
+    }
+
+    @media screen and (min-width: $screen-m) {
+      width: calc(50% - 100px);
+
+      &:nth-child(even) {
+        margin-left: 60px;
+        margin-right: 40px;
+      }
+
+      &:nth-child(odd) {
+        margin-right: 60px;
+        margin-left: 40px;
+      }
+
+      &:nth-child(1), &:nth-child(2) {
+        margin-bottom: 80px;
+      }
+    }
+  }
+
+  &__box-info {
+    width: 60%;
+
+    @media screen and (min-width: $screen-s) {
+      width: 60%;
+    }
+  }
+
+  &__box-info-title {
+    font-size: 2.4em;
+    font-weight: 400;
+    margin: 0 0 15px;
+  }
+
+  &__box-info-description {
+    font-size: 1.6em;
+    color: $color-gray;
+    line-height: 24px;
+
+    @media screen and (min-width: $screen-s) {
+      font-size: 1.8em;
+    }
+  }
+
+  &__box-image {
+    transform: scale(0.8);
+    flex-grow: 1;
+  }
+}

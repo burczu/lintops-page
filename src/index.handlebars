@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Lintops - We will lint your infrastructure...</title>
+    <meta name="description" content="We strongly believe, that well-made, higly available and secure infrastructure can be delivered for any development team." />
+    <link rel="shortcut icon" href="/static/img/favicon.png" type="image/png"/>
+
+    <meta property="og:title" content="Lintos" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="{{ htmlWebpackPlugin.options.baseUrl }}/static/img/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="{{ htmlWebpackPlugin.options.baseUrl }}" />
+    <meta property="og:description" content="We strongly believe, that well-made, higly available and secure infrastructure can be delivered for any development team." />
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content" id="content">
+            {{> partials/loader }}
+            {{> partials/header title=htmlWebpackPlugin.options.title }}
+            {{> partials/top }}
+            <div class="content__wrapper" id="content-sticky">
+                {{> partials/about-us }}
+                {{> partials/help }}
+                {{> partials/services }}
+                {{> partials/automation }}
+                {{> partials/clouds }}
+                {{> partials/containers }}
+                {{> partials/contact }}
+                {{> partials/footer }}
+            </div>
+        </div>
+    </div>
+</body>
+</html>

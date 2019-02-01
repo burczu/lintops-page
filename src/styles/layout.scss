@@ -1,0 +1,77 @@
+@import "./variables";
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+body {
+  background: $color-light-gray;
+  font-size: 62.5%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+}
+
+body * {
+  color: $color-dark;
+  font-family: 'PT Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+.screen-handler {
+  width: 100%;
+
+  @media screen and (min-width: $screen-s) {
+    width: 720px;
+    margin: 0 auto;
+  }
+
+  @media screen and (min-width: $screen-m) {
+    width: 960px;
+  }
+
+  @media screen and (min-width: $screen-l) {
+    width: 1140px;
+  }
+}
+
+p {
+  font-size: 1.8em;
+  line-height: 2;
+}
+
+.button {
+  color: $color-light;
+  background: $color-primary;
+  border-radius: $radius-global;
+
+  text-decoration: none;
+
+  transition: background-color $animation-global;
+
+  &:hover {
+    background: lighten($color-primary, 5%);
+  }
+}
+
+.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear, opacity $animation-global linear;
+
+  &--not {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+.content {
+  position: relative;
+
+  &__wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+
+    padding-top: 70px;
+  }
+}

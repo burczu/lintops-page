@@ -1,0 +1,49 @@
+@import "../variables";
+
+.contact {
+  z-index: 93;
+
+  background: url('/static/img/contact-background.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: $color-primary;
+  background-size: cover;
+
+  @media screen and (min-width: $screen-m) {
+    background-size: contain;
+  }
+
+  &__content {
+    padding: 45px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    @media screen and (min-width: $screen-s) {
+      padding: 100px 0;
+    }
+  }
+
+  &__text {
+    text-align: center;
+    color: $color-light;
+    font-size: 3em;
+    line-height: 1.5;
+
+    @media screen and (min-width: $screen-s) {
+      font-size: 5em;
+    }
+  }
+
+  &__button {
+    color: $color-primary;
+    background: $color-light;
+    border-radius: $radius-global * 2;
+    text-decoration: none;
+    padding: 15px 40px;
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 1em;
+  }
+}

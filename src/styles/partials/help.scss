@@ -1,0 +1,112 @@
+@import "../variables";
+
+.help {
+  z-index: 98;
+
+  background: url('/static/img/services-background.jpg');
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 300%;
+  background-color: $color-light;
+
+  box-shadow: 0 2px 60px rgba(0, 0, 0, 0.1);
+
+  @media screen and (min-width: $screen-s) {
+    background-size: 200%;
+  }
+
+  @media screen and (min-width: $screen-m) {
+    background-size: 100%;
+  }
+
+  @media screen and (min-width: $screen-l) {
+    background-size: 75%;
+  }
+
+  &__content {
+    padding: 45px 10px;
+
+    @media screen and (min-width: $screen-s) {
+      padding: 100px 0;
+    }
+  }
+
+  &__title {
+    font-size: 2.4em;
+
+    @media screen and (min-width: $screen-s) {
+      font-size: 2.6em;
+    }
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    padding: 50px 0 30px;
+
+    @media screen and (min-width: $screen-m) {
+      padding: 70px 0 50px;
+    }
+  }
+
+  &__link {
+    flex-grow: 1;
+    text-align: center;
+
+    width: 100%;
+    margin-bottom: 50px;
+
+    text-decoration: none;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &:hover {
+      img {
+        transform: scale(1.1);
+      }
+    }
+
+    @media screen and (min-width: $screen-s) {
+      width: 50%;
+
+      margin-bottom: 0;
+
+      &:nth-child(1), &:nth-child(2) {
+        margin-bottom: 50px;
+      }
+    }
+
+    @media screen and (min-width: $screen-m) {
+      width: unset;
+
+      &:nth-child(1), &:nth-child(2) {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__image-link {
+    transition: transform $animation-global;
+  }
+
+  &__link-title {
+    font-size: 2.8em;
+    margin: 5px 0 0;
+
+    @media screen and (min-width: $screen-s) {
+      margin: 15px 0 0;
+    }
+  }
+
+  &__tip {
+    text-align: center;
+    margin: 0;
+    line-height: 30px;
+    color: $color-gray;
+  }
+}
