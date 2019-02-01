@@ -1,0 +1,160 @@
+@import "../variables";
+
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  z-index: 101;
+
+  background: $color-light;
+  transition: box-shadow $animation-global;
+
+  &--collapsed {
+    box-shadow: 0 2px 80px rgba(0, 0, 0, 0.05);
+    .main-header__logo-sygnet {
+      @media screen and (min-width: $screen-s) {
+        height: 40px;
+        margin-right: 0;
+      }
+    }
+
+    .main-header__logo-logotype {
+      @media screen and (min-width: $screen-s) {
+        height: 25px;
+      }
+    }
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+
+    margin: 10px;
+
+    @media screen and (min-width: $screen-s) {
+      margin: 15px auto;
+    }
+  }
+
+  &__logo {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__logo-link {
+    display: flex;
+    align-items: center;
+
+    &:hover {
+      .main-header__logo-sygnet > g > g {
+        fill: $color-primary;
+      }
+
+      .main-header__logo-logotype > g > g {
+        fill: $color-primary;
+      }
+    }
+  }
+
+  &__logo-sygnet {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    transition: height $animation-global, margin-right $animation-global;
+
+    & > g > g {
+      transition: all $animation-global;
+    }
+
+    @media screen and (min-width: $screen-s) {
+      height: 50px;
+      width: 50px;
+      margin-right: 15px;
+    }
+
+    @media screen and (min-width: $screen-m) {
+      height: 60px;
+      width: 60px;
+    }
+  }
+
+  &__logo-logotype {
+    height: 25px;
+    width: 120px;
+    transition: height $animation-global;
+
+    & > g > g {
+      transition: all $animation-global;
+    }
+
+    @media screen and (min-width: $screen-s) {
+      height: 30px;
+      width: 162px;
+    }
+  }
+
+  &__nav {
+    flex-grow: 1;
+  }
+
+  &__nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  &__nav-list-item {
+    margin-left: 30px;
+
+    &--social {
+      display: none;
+
+      @media screen and (min-width: $screen-xs) {
+        display: list-item;
+      }
+    }
+  }
+
+  &__nav-list-icon {
+    & > g > g {
+      transition: fill $animation-global;
+    }
+
+    &:hover {
+      & > g > g {
+        fill: $color-primary;
+      }
+    }
+  }
+
+  &__nav-list-bars {
+    & > g > rect {
+      transition: fill $animation-global;
+    }
+
+    &:hover {
+      & > g > rect {
+        fill: $color-primary;
+      }
+    }
+  }
+
+  &__nav-list-button {
+    font-size: 1.6em;
+    line-height: 30px;
+    padding: 0 10px;
+
+    display: block;
+    min-height: 30px;
+
+    @media screen and (min-width: $screen-s) {
+      padding: 0 20px;
+    }
+  }
+}

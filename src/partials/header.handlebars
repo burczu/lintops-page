@@ -1,0 +1,39 @@
+<header class="main-header" id="main-header">
+    <div class="main-header__content screen-handler">
+        <h1 class="main-header__logo" title="{{ title }}">
+            <a class="main-header__logo-link" href="/" title="{{ title }}">
+                {{> svg/logo-signet class='main-header__logo-sygnet' }}
+                {{> svg/logo-logotype class='main-header__logo-logotype' }}
+            </a>
+        </h1>
+        <nav class="main-header__nav">
+            <ul class="main-header__nav-list">
+                <li class="main-header__nav-list-item main-header__nav-list-item--contact">
+                    <a class="button main-header__nav-list-button" href="mailto:office@lintops.tech">
+                        contact us
+                    </a>
+                </li>
+                <li class="main-header__nav-list-item main-header__nav-list-item--social">
+                    <a class="main-header__nav-list-link" href="https://twitter.com/lintopstech" target="_blank">
+                        {{> svg/twitter class='main-header__nav-list-icon' }}
+                    </a>
+                </li>
+                <li class="main-header__nav-list-item main-header__nav-list-item--social">
+                    <a class="main-header__nav-list-link" href="https://github.com/lintops" target="_blank">
+                        {{> svg/github class='main-header__nav-list-icon' }}
+                    </a>
+                </li>
+                <li class="main-header__nav-list-item main-header__nav-list-item--social">
+                    <a class="main-header__nav-list-link" href="https://www.linkedin.com/company/lintops-tech/" target="_blank">
+                        {{> svg/linkedin class='main-header__nav-list-icon' }}
+                    </a>
+                </li>
+                <!--<li class="main-header__nav-list-item">-->
+                    <!--<a class="main-header__nav-list-link" href="/">-->
+                        {{!-- {{> svg/bars class='main-header__nav-list-bars' }} --}}
+                    <!--</a>-->
+                <!--</li>-->
+            </ul>
+        </nav>
+    </div>
+</header>

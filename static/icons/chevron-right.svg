@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>chevron-square-right-solid</title>
+    <desc>Created with Sketch.</desc>
+    <g id="landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-415.000000, -1070.000000)" fill="#0042c6" fill-rule="nonzero" id="About-us">
+            <g transform="translate(0.000000, 806.000000)">
+                <g id="chevron-square-right-solid" transform="translate(415.000000, 264.000000)">
+                    <path d="M2.14285714,0 L17.8571429,0 C19.040625,0 20,0.959375 20,2.14285714 L20,17.8571429 C20,19.040625 19.040625,20 17.8571429,20 L2.14285714,20 C0.959375,20 0,19.040625 0,17.8571429 L0,2.14285714 C0,0.959375 0.959375,0 2.14285714,0 Z M14.7295089,9.24236607 L8.67977679,3.19263393 C8.26133929,2.77419643 7.58294643,2.77419643 7.16455357,3.19263393 L6.40691964,3.95026786 C5.98848214,4.36870536 5.98848214,5.04709821 6.40691964,5.46549107 L10.9414286,10 L6.40691964,14.5345089 C5.98848214,14.9529464 5.98848214,15.6313393 6.40691964,16.0497321 L7.16455357,16.8073661 C7.58299107,17.2258036 8.26138393,17.2258036 8.67977679,16.8073661 L14.7295536,10.7575893 C15.1479464,10.3391964 15.1479464,9.66080357 14.7295089,9.24236607 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

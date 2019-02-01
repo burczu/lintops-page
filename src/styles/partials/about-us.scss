@@ -1,0 +1,86 @@
+@import "../variables";
+
+.about-us {
+  z-index: 99;
+
+  background: $color-light-gray;
+
+  &--relative {
+    position: relative;
+  }
+
+  &__content {
+    padding: 45px 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    @media screen and (min-width: $screen-s) {
+      padding: 100px 0;
+    }
+  }
+
+  &__box {
+    width: 100%;
+
+    @media screen and (min-width: $screen-s) {
+      width: 50%;
+
+      &:nth-child(even) {
+        padding-left: 25px;
+      }
+
+      &:nth-child(odd) {
+        padding-right: 25px;
+      }
+
+      &:nth-child(1), &:nth-child(2) {
+        .about-us__list {
+          margin-bottom: 50px;
+
+          @media screen and (min-width: $screen-m) {
+            margin-bottom: 100px;
+          }
+        }
+      }
+    }
+
+    @media screen and (min-width: $screen-m) {
+      &:nth-child(even) {
+        padding-left: 60px;
+      }
+
+      &:nth-child(odd) {
+        padding-right: 60px;
+      }
+    }
+  }
+
+  &__title {
+    font-size: 2.4em;
+
+    @media screen and (min-width: $screen-s) {
+      font-size: 2.6em;
+    }
+  }
+
+  &__list {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  &__list-item {
+    background: url('/static/icons/chevron-right.svg') no-repeat left 5px;
+    padding-left: 40px;
+
+    font-size: 1.8em;
+    line-height: 30px;
+    color: $color-gray;
+
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    line-height: 30px;
+  }
+}
