@@ -92,9 +92,17 @@
 
   &__copyrights {
     text-align: center;
-    color: $color-light;
-    font-size: 1.6em;
-
     padding: 20px 0;
+    font-size: 1.6em;
+  }
+
+  &__copyrights-item {
+    color: $color-light;
+    text-transform: uppercase;
+    display: block;
+
+    a {
+      color: $color-light;
+    }
   }
 }
