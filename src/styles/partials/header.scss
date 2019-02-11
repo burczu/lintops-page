@@ -122,12 +122,12 @@
   }
 
   &__nav-list-icon {
-    & > g > g {
+    & > g > g, & > g > g > rect {
       transition: fill $animation-global;
     }
 
     &:hover {
-      & > g > g {
+      & > g > g, & > g > g > rect {
         fill: $color-primary;
       }
     }
